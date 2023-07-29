@@ -1,4 +1,3 @@
-// src/App.js
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
@@ -9,9 +8,9 @@ const App = () => {
   useEffect(() => {
     //fetch user's current location
     const getUserLocation = () => {
-      // geolocation code here, get user current location
-      const latitude = 123.456; // Replace with actual latitude
-      const longitude = 456.789; // Replace with actual longitude
+      // geolocation code here, get current location
+      const latitude = 123.456; // Replace actual latitude
+      const longitude = 456.789; // Replace actual longitude
       fetchRestaurants(latitude, longitude);
     };
 
